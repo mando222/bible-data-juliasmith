@@ -1,13 +1,235 @@
 {
   "edition": "JuliaSmith",
-  "migration": "302bb5f92f1e05bf4b96c894f96da77a4cf10845",
-  "sources": [
+  "format": 1,
+  "candidates": [
     {
-      "asset": "julia-smith-1876.json.gz",
+      "name": "Digital Bible Society, ENGJESPT",
+      "url": "https://arc.dbs.org/data/scripture/ENGJESPT/index.html",
+      "rights": "Public-domain Julia E. Smith translation, 1876. Preserve Digital Bible Society source credit.",
+      "establishes": "Distributor attribution for the 1876 edition."
+    },
+    {
+      "name": "Julia Smith Bible, StudyBible.info",
+      "url": "https://studybible.info/JuliaSmith",
+      "localArtifact": "sources/julia-smith-1876.json.gz",
+      "rights": "Public-domain 1876 text credited to Digital Bible Society in v0.5.0.",
       "sha256": "b6bc750b364402c950b7dd30d097d7f039edf48e50950611ea55082dfebc6c6f",
-      "url": "https://studybible.info/JuliaSmith/",
-      "license": "Public Domain",
-      "credit": "Julia E. Smith Parker Translation (1876). Public Domain. Text via studybible.info (Digital Bible Society)."
+      "sha256Uncompressed": "5702fb61513f4e97a0bb1caf71d5892caa55f1b17dea8709666af42bab606de1",
+      "establishes": "The hashes identify the normalized 31,102-verse migration snapshot sourced via this site. No independently established source-word positions were imported."
+    },
+    {
+      "name": "Encyclopaedia Biblica statistical alignment",
+      "url": "https://smithsliteral.encyclopaediabiblica.com/rights",
+      "rights": "No separately licensed, independently reviewed occurrence dataset established by this inspection.",
+      "establishes": "Statistical alignment is a candidate for research. It cannot substantiate restoration from agreement with another inference."
     }
-  ]
+  ],
+  "gaps": "The published 1876 text and local recovery snapshot provide verse text. No publisher word tags, source positions or encoded edition layout were identified.",
+  "books": {
+    "Gen": {
+      "targetVerses": 1533
+    },
+    "Exod": {
+      "targetVerses": 1213
+    },
+    "Lev": {
+      "targetVerses": 859
+    },
+    "Num": {
+      "targetVerses": 1288
+    },
+    "Deut": {
+      "targetVerses": 959
+    },
+    "Josh": {
+      "targetVerses": 658
+    },
+    "Judg": {
+      "targetVerses": 618
+    },
+    "Ruth": {
+      "targetVerses": 85
+    },
+    "1Sam": {
+      "targetVerses": 810
+    },
+    "2Sam": {
+      "targetVerses": 695
+    },
+    "1Kgs": {
+      "targetVerses": 816
+    },
+    "2Kgs": {
+      "targetVerses": 719
+    },
+    "1Chr": {
+      "targetVerses": 942
+    },
+    "2Chr": {
+      "targetVerses": 822
+    },
+    "Ezra": {
+      "targetVerses": 280
+    },
+    "Neh": {
+      "targetVerses": 406
+    },
+    "Esth": {
+      "targetVerses": 167
+    },
+    "Job": {
+      "targetVerses": 1070
+    },
+    "Ps": {
+      "targetVerses": 2461
+    },
+    "Prov": {
+      "targetVerses": 915
+    },
+    "Eccl": {
+      "targetVerses": 222
+    },
+    "Song": {
+      "targetVerses": 117
+    },
+    "Isa": {
+      "targetVerses": 1292
+    },
+    "Jer": {
+      "targetVerses": 1364
+    },
+    "Lam": {
+      "targetVerses": 154
+    },
+    "Ezek": {
+      "targetVerses": 1273
+    },
+    "Dan": {
+      "targetVerses": 357
+    },
+    "Hos": {
+      "targetVerses": 197
+    },
+    "Joel": {
+      "targetVerses": 73
+    },
+    "Amos": {
+      "targetVerses": 146
+    },
+    "Obad": {
+      "targetVerses": 21
+    },
+    "Jonah": {
+      "targetVerses": 48
+    },
+    "Mic": {
+      "targetVerses": 105
+    },
+    "Nah": {
+      "targetVerses": 47
+    },
+    "Hab": {
+      "targetVerses": 56
+    },
+    "Zeph": {
+      "targetVerses": 53
+    },
+    "Hag": {
+      "targetVerses": 38
+    },
+    "Zech": {
+      "targetVerses": 211
+    },
+    "Mal": {
+      "targetVerses": 55
+    },
+    "Matt": {
+      "targetVerses": 1071
+    },
+    "Mark": {
+      "targetVerses": 678
+    },
+    "Luke": {
+      "targetVerses": 1151
+    },
+    "John": {
+      "targetVerses": 879
+    },
+    "Acts": {
+      "targetVerses": 1007
+    },
+    "Rom": {
+      "targetVerses": 433
+    },
+    "1Cor": {
+      "targetVerses": 437
+    },
+    "2Cor": {
+      "targetVerses": 257
+    },
+    "Gal": {
+      "targetVerses": 149
+    },
+    "Eph": {
+      "targetVerses": 155
+    },
+    "Phil": {
+      "targetVerses": 104
+    },
+    "Col": {
+      "targetVerses": 95
+    },
+    "1Thess": {
+      "targetVerses": 89
+    },
+    "2Thess": {
+      "targetVerses": 47
+    },
+    "1Tim": {
+      "targetVerses": 113
+    },
+    "2Tim": {
+      "targetVerses": 83
+    },
+    "Titus": {
+      "targetVerses": 46
+    },
+    "Phlm": {
+      "targetVerses": 25
+    },
+    "Heb": {
+      "targetVerses": 303
+    },
+    "Jas": {
+      "targetVerses": 108
+    },
+    "1Pet": {
+      "targetVerses": 105
+    },
+    "2Pet": {
+      "targetVerses": 61
+    },
+    "1John": {
+      "targetVerses": 105
+    },
+    "2John": {
+      "targetVerses": 13
+    },
+    "3John": {
+      "targetVerses": 14
+    },
+    "Jude": {
+      "targetVerses": 25
+    },
+    "Rev": {
+      "targetVerses": 404
+    }
+  },
+  "migration": "302bb5f92f1e05bf4b96c894f96da77a4cf10845",
+  "method": {
+    "published": "A distributor Strong’s tag on a matching whole English verse is independently supported by a complete BSB publisher rendering of the same single word and a unique same Strong’s occurrence in the selected source verse. These flags are for lexical lookup.",
+    "corroborated": "The WEB and ASV John 11:35 readings are independently reviewed. CrossWire KJV2003 directly identifies individual source word positions. Additions require matching English boundaries and matching Greek form, ID and position. See the build script for abstentions.",
+    "withheld": "The raw provider archive retains every candidate. Book counts record the reason a candidate was withheld. The original translation is preserved; a supported lexical lookup does not enable source-form display.",
+    "publishedText": "The anchored translation and literary layout are preserved from the pinned migration reference. Later distributor text revisions never silently replace a published verse."
+  }
 }

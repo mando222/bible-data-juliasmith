@@ -137,7 +137,7 @@
   },
   "inference": "BSB phrase alignment with KJV and BSB verse candidates, Strong’s KJV usage and English stems. Passage addresses mapped to KJV coordinates before lookup. Inferred links support dictionary lookup only. Regenerator: data-pipeline/editionInference.ts.",
   "files": {
-    "coverage.json": "ffc1df48e5a340f6c399238dee29a49e524b3637513f62f6f8918cd18cf3e52a",
+    "coverage.json": "d49e1c0e2a38f5b981e0bf4a23fd6ca9cf22f8f1abdce02ed1df0e1e40451755",
     "inferred/1Chr.jsonl": "c9506ab84a824e832774f0a0c65e2f677d9708732fd031193617b55e582d0ed4",
     "inferred/1Cor.jsonl": "4101156108a755e9907baf6ed2b0ad7ca3c586b802fb76394a920984d21a9098",
     "inferred/1John.jsonl": "a34098d34eba6a9867ca682559861d2fc3d367699eddc7ca9e02b58798cdf802",
@@ -204,7 +204,7 @@
     "inferred/Titus.jsonl": "4502a952e7c56667fd63997e7007fd3f94a895c62bee6014da6ccf34302dd942",
     "inferred/Zech.jsonl": "691f5db1fc068d0bd53303d73fea3d22990f8c32e3efc83cc226fdc2c5698561",
     "inferred/Zeph.jsonl": "fee71c2ca80373989216b831a25f76ff13199d4dd2cf0e572ad8c71c82176e73",
-    "inventory.json": "8979ba62ff369657011fd22b410bba1e02131f606bbdf57a1d10759e7fbc7040",
+    "inventory.json": "645ee2128ad3718f4c44d0903de3048a7605996f201e4b96b6376b287c46aa45",
     "sources/julia-smith-1876.json.gz": "b6bc750b364402c950b7dd30d097d7f039edf48e50950611ea55082dfebc6c6f",
     "text/1Chr.jsonl": "133aa29c94e926ab892762047977204a1c0832fb956369ffef29e3546e52b3b8",
     "text/1Cor.jsonl": "f1b8e348e918018ec5c37f82603ed789136870dd5554f3935785559dae951983",
@@ -272,5 +272,13 @@
     "text/Titus.jsonl": "2629f4efcce9f9ebf91d2aeef7f11d0477e2c43555f4577922100ff661099dc5",
     "text/Zech.jsonl": "fcb3a942c0f9b6f20ab4260f1b95fced73c75f797a3e825a3999152194e1942b",
     "text/Zeph.jsonl": "6fd6c3fbcbabafaa4e60549ce4da0a4093ca1e89c07ca449a7d9136d384dfab2"
+  },
+  "inferenceInputs": {
+    "KJVTokens": "5230545659a8ea07a5ec67ceb4cd79cf87b30aa465327358f72ff4d6b28000aa",
+    "BSBTokens": "6bc7b4c0d335004616d9f845e42408d7592926ecde62c38c486f0ab8709f4c19",
+    "strongsUsage": "bc1103ef2b8cb922cbadd18e0cfeb5acc4627714e0843e8898dd3fb321ea335d",
+    "algorithm": "790607db277380c3c600aac16039481a29d15db881f903eade75aa87a9480af9",
+    "referenceMapping": "3fc5b56a3e2759e815374e409acb0d90117b0e36381b9817a1d38628dfad9901",
+    "derivation": "08040b2e26eaa5ee197690738a606f3aac9a316b76cf44dfaeea71bc5ee76fae"
   }
 }
