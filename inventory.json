@@ -1,0 +1,13 @@
+{
+  "edition": "JuliaSmith",
+  "migration": "302bb5f92f1e05bf4b96c894f96da77a4cf10845",
+  "sources": [
+    {
+      "asset": "julia-smith-1876.json.gz",
+      "sha256": "b6bc750b364402c950b7dd30d097d7f039edf48e50950611ea55082dfebc6c6f",
+      "url": "https://studybible.info/JuliaSmith/",
+      "license": "Public Domain",
+      "credit": "Julia E. Smith Parker Translation (1876). Public Domain. Text via studybible.info (Digital Bible Society)."
+    }
+  ]
+}
